@@ -1,0 +1,12 @@
+server:
+  port: 8091
+
+file:
+  storage:
+    dir: D:\\resources
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
